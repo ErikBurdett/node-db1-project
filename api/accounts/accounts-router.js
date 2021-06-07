@@ -1,5 +1,5 @@
 const express = require('express')
-const account = require('./accounts-model')
+const accounts = require('./accounts-model')
 const { checkAccountPayload, checkAccountNameUnique, checkAccountId } = require('./accounts-middleware')
 const router = require('express').Router()
 
