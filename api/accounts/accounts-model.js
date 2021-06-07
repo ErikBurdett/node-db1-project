@@ -22,7 +22,7 @@ const create = account => {
 
 const updateById = (id, account) => {
   if (id){
-    returb db('accounts')
+    return db('accounts')
     .where('id', id)
     .update(changes)
     .then((count)=> (count > 0 ? getById(id): null))
